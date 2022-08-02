@@ -18,8 +18,8 @@ o cartão anterior da lista
 
 /* Objetivo 1 */
 
-const btnAvancar = document.getElementById('btn-avancar');
-const btnVoltar = document.getElementById('btn-voltar');
+const btnAvancar = document.getElementById('btn-next');
+const btnVoltar = document.getElementById('btn-back');
 const cartoes = document.querySelectorAll('.card');
 let cartaoAtual = 0;
 
